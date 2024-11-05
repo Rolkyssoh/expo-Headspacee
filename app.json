@@ -2,6 +2,7 @@
   "expo": {
     "name": "Headspacee",
     "slug": "Headspacee",
+    "scheme": "My-Headspacee",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "sdkVersion": "51.0.0",
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
